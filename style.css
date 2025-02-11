@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #6B3E17;
+    color: white;
+    text-align: center;
+}
+header {
+    background-image: url('header-background.jpg');
+    background-size: cover;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background-color: #8B5A2B;
+    border-radius: 10px;
+}
+section {
+    margin: 40px 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.curiosidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.curiosidade-item {
+    width: 30%;
+    margin: 10px;
+    background-color: #A67C52;
+    padding: 10px;
+    border-radius: 10px;
+}
+@media (max-width: 768px) {
+    .curiosidade-item {
+        width: 90%;
+    }
+}
+
+#sinopse {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sobre {
+    display: flex;
+    align-items: flex-start; /* Alinha os itens ao topo */
+    justify-content: space-around
+    gap: 20px; /* Espaço entre o texto e a imagem */
+    width: 300px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+    border-radius: 8px; /* Opcional: bordas arredondadas */
+}
