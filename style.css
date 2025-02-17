@@ -71,9 +71,40 @@ img {
 #sobre {
     display: flex;
     align-items: flex-start; /* Alinha os itens ao topo */
-    justify-content: space-around
-    gap: 20px; /* Espaço entre o texto e a imagem */
-    width: 300px; /* Ajuste o tamanho da imagem conforme necessário */
+    justify-content: space-between; /* Espaço entre texto e imagem */
+    gap: 20px; /* Espaço entre os elementos */
+    background-color: #a46a2a; /* Cor de fundo marrom */
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+    color: white; /* Cor do texto */
+    font-family: Arial, sans-serif; /* Fonte */
+    font-size: 16px; /* Tamanho do texto */
+    line-height: 1.5; /* Espaçamento entre linhas */
+}
+
+#sobre h2 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffe600; /* Amarelo destacado */
+}
+
+#sobre img {
+    width: 250px; /* Ajuste conforme necessário */
     height: auto;
-    border-radius: 8px; /* Opcional: bordas arredondadas */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+#sobre strong {
+    font-weight: bold;
+    color: #ffffff; /* Amarelo destacado */
+}
+
+#sobre a {
+    color: #87d7ff; /* Azul claro para links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#sobre a:hover {
+    text-decoration: underline;
 }
