@@ -7,16 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="cabecalho">
     <header>
         Dom Quixote
     </header>
     <nav>
+        
         <a href="#sinopse">Sinopse</a>
         <a href="#curiosidades">Curiosidades</a>
         <a href="#sobre">Sobre</a>
         <a href="#autor">Autor</a>
         <a href="https://www.americanas.com.br/busca/livro-dom-quixote" target="_blank">Compre Aqui</a>
-    </nav>
+        </div>
     <div class="container">
         <section id="sinopse">
             <img src="download.jpg" alt="Dom Quixote e Sancho Pança">
@@ -62,6 +64,26 @@
             O livro é um dos mais vendidos da história, com mais de 500 milhões de cópias, e influenciou autores como Shakespeare, Dostoiévski e Borges. Além disso, expressões como “lutar contra moinhos de vento” (enfrentar inimigos imaginários) vieram diretamente da obra.</p>
             </div>
         </section>
+        <section class="item ativo" style="--background:#EA3D41">
+            <div class="titulo">Volume1</div>
+            <img src="71cw1USO36L._AC_UF1000,1000_QL80_.jpg" class="volume1">
+            
+        </section>
+        <section class="item" style="--background:#2D5643">
+            <div class="titulo">Volume2</div>
+            <img src="28541277.jpg" class="volume1">
+            
+        </section>
+        <section class="item" style="--background:#e7a043">
+            <div class="titulo">Volume3</div>
+            <img src="51uMwul3CAL._AC_UF1000,1000_QL80_.jpg" class="volume1">
+        </section>
+        
+        <div class="seta">
+            <button id="anterior"></button>
+            <button id="proximo"></button>
+
+        </div>
         <section id="autor">
             <h2>Autor:</h2>
             <img src="download (1).jpg" alt="Miguel de Cervantes">
@@ -74,5 +96,6 @@
                     Além de Dom Quixote, escreveu novelas, peças teatrais e poesias, mas nenhuma de suas outras obras teve o mesmo impacto.</p>
         </section>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
